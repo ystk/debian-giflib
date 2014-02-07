@@ -1,3 +1,18 @@
+giflib (4.1.6-10) unstable; urgency=low
+
+  * Fixing fprintf issues by YunQiang Su.
+  * Hardening build flags (Closes: #673660).
+  * Updating Standards (no change).
+
+ -- Thibaut Gridel <tgridel@free.fr>  Fri, 19 Oct 2012 23:03:46 +0200
+
+giflib (4.1.6-9.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Depend on libperl4-corelibs-perl (Closes: #659421)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 28 Apr 2012 17:29:52 +0100
+
 giflib (4.1.6-9) unstable; urgency=low
 
   * New Maintainer (Closes: #543841)

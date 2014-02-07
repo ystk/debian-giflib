@@ -1,9 +1,9 @@
 Source: giflib
 Section: libs
 Priority: optional
-Maintainer: Thibaut GRIDEL <tgridel@free.fr>
+Maintainer: Thibaut Gridel <tgridel@free.fr>
 Build-Depends: debhelper (>= 7.0.50~), autotools-dev, automake, autoconf, libtool (>=2.2.6)
-Standards-Version: 3.8.3
+Standards-Version: 3.9.3
 Homepage: http://giflib.sourceforge.net/
 Vcs-Browser: http://git.debian.org/?p=collab-maint/giflib.git;a=summary
 Vcs-Git: git://git.debian.org/collab-maint/giflib.git
@@ -24,7 +24,7 @@ Description: library for GIF images (debug)
 Package: giflib-tools
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libperl4-corelibs-perl | perl (<< 5.12.3-7)
 Provides: libungif-bin
 Description: library for GIF images (utilities)
  GIFLIB is a package of portable tools and library routines for working with GIF
