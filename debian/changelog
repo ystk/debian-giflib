@@ -1,3 +1,10 @@
+giflib (4.1.6-9+deb6u1) squeeze-lts; urgency=medium
+
+  * CVE-2015-7555: bail out if Width > SWidth.
+    Cherry-picked upstream commit 179510be300bf11115e37528d79619b53c884a63
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 15 Jan 2016 13:06:38 +0100
+
 giflib (4.1.6-9) unstable; urgency=low
 
   * New Maintainer (Closes: #543841)
