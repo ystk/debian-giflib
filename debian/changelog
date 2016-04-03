@@ -1,3 +1,12 @@
+giflib (4.1.6-11+deb8u1) stable-proposed-updates; urgency=medium
+
+  * Non-maintainer upload by the LTS Security Team.
+  * CVE-2015-7555: bail out if Width > SWidth.
+    Cherry-picked upstream commit 179510be300bf11115e37528d79619b53c884a63
+    (Closes: #808704)
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 18 Jan 2016 17:08:39 +0100
+
 giflib (4.1.6-11) unstable; urgency=low
 
   * Remove Provides: libungif4g.
