@@ -1,3 +1,11 @@
+giflib (4.1.6-11+deb8u2) jessie-security; urgency=medium
+
+  * Non-maintainer upload by the ELTS Team.
+  * Fix CVE-2016-3977 (Closes: #820526), CVE-2018-11490 (Closes: #904114),
+    CVE-2019-15133
+
+ -- Helmut Grohne <helmut@subdivi.de>  Fri, 02 Dec 2022 21:07:51 +0100
+
 giflib (4.1.6-11+deb8u1) stable-proposed-updates; urgency=medium
 
   * Non-maintainer upload by the LTS Security Team.
